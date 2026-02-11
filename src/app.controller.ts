@@ -12,6 +12,6 @@ export class AppController {
 
   @Get('health')
   health() {
-    return { status: 'ok', ci: 'works on AZURE!!!' };
+    return { status: 'ok' };
   }
 }
